@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Dataset and large files
+data/
+*.tar
+*.tar.gz
+*.zip
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+runs/*/best.pth
+runs/*/last.pth
+
+# Local logs and OS files
+*.log
+.DS_Store
+Thumbs.db
